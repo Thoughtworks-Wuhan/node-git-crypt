@@ -5,7 +5,7 @@ RUN apk add git --update-cache --repository http://dl-cdn.alpinelinux.org/alpine
 RUN apk --update add \
    bash \
    curl \
-   git \
+   git --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.8/main \
    g++ \
    make \
    openssh \
