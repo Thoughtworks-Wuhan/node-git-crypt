@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:alpine:10
 
 ENV VERSION 0.6.0
 RUN apk add git --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.8/main
